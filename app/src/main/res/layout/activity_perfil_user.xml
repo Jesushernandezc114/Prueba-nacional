@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".perfil_user">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="35dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Perfil de Usuario"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/Foto"
+            android:layout_width="373dp"
+            android:layout_height="98dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/btnSF"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Subir Foto"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TXTNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TXTCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="nuevo Correo"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtNombre2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="nuevo Nombre"
+            android:inputType="text"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/txtPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="nueva Contraseña"
+            android:inputType="textPassword"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Modificar usuario"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnGuardarCa"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Guardar Cambios"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

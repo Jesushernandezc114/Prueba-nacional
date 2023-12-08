@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648930766850",
+    "project_id": "conectamovil-32fb7",
+    "storage_bucket": "conectamovil-32fb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648930766850:android:664c1b52e6389126f2371b",
+        "android_client_info": {
+          "package_name": "com.example.conectamoviljhc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXNwO-Rv11cnftrFrWl4AIRRDvUcgYMMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
